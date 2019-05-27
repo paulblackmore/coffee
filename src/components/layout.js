@@ -12,8 +12,11 @@ import PropTypes from "prop-types"
 import "./bootstrap.min.css";
 import "./layout.css"
 
+import Navbar from './Globals/Navbar';
+
 const Layout = ({ children }) => (
   <React.Fragment>
+    <Navbar />
     {children}
   </React.Fragment>
 )
