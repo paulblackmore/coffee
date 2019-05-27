@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import { FaCartArrowDown } from 'react-icons/fa';
 
 export default class Navbar extends Component {
 
@@ -55,8 +54,8 @@ export default class Navbar extends Component {
                                 )
                             })
                         }
-                        <li className="nav-item ml-sm-5">
-                            <FaCartArrowDown className="cart-icon"/>
+                        <li className="nav-item">
+                            <span className="snipcart-checkout nav-link text-capitalize">Checkout</span>
                         </li>
                     </ul>
                 </div>
