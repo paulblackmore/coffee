@@ -11,13 +11,27 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.25rem !important;
 }
 
-.default-background {
-  min-height: 100vh;
+.default-background,
+.about-background {
   display: flex;
   justify-content: center;
   align-items: center;
   background-position: center;
   background-size: cover;
+}
+
+.default-background h1,
+.about-background h1{
+  background: var(--mainDark) !important;
+  padding: 20px;
+}
+
+.default-background {
+  min-height: 100vh;
+}
+
+.about-background {
+  min-height: 60vh;
 }
 
 .footer {
