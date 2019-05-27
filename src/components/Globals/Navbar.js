@@ -39,7 +39,7 @@ export default class Navbar extends Component {
                     Coffee Shop
                 </Link>
                 <button className="navbar-toggler" type="button" onClick={this.navbarOpen}>
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon">&#9776;</span>
                 </button>
                 <div className={this.state.css}>
                     <ul className="navbar-nav mx-auto">

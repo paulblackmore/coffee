@@ -47,7 +47,7 @@ export default class Menu extends Component {
                                 {this.state.categories.map((category, index) => {
                                     return(
                                         <button 
-                                            className="btn btn-outline-dark m-3"
+                                            className="btn btn-outline-dark m-1"
                                             type="button"
                                             onClick={() => { this.filterItems(category) }}
                                             key={index}>

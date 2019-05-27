@@ -25,6 +25,20 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--mainWhite) !important;
 }
 
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+  color: var(--mainWhite) !important;
+  margin-top: 10px;
+}
+
 .default-background,
 .about-background {
   display: flex;
